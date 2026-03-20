@@ -112,7 +112,7 @@ Young adults contribute the highest revenue
 🚀 How to Run
 
 Clone the repository
-git clone https://github.com/your-username/customer-shopping-analysis.git
+git clone https://github.com/your-username/customer-trends-data-analysis-SQL-Python-PowerBI.git
 
 Run Python scripts for preprocessing
 
