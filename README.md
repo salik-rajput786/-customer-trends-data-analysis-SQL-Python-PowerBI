@@ -1,41 +1,40 @@
 # -customer-trends-data-analysis-SQL-Python-PowerBI
 
-🛒 Customer Shopping Behavior Analysis
 📌 Project Overview
 
-This project focuses on analyzing customer shopping behavior using transactional data. The goal is to uncover insights into customer spending patterns, product preferences, and segmentation to support data-driven business decisions.
+This project analyzes customer shopping behavior using transactional data to uncover patterns in purchasing, customer segmentation, and product performance. The objective is to generate actionable insights that help businesses make data-driven decisions.
 
-The dataset contains 3,900 transactions across multiple product categories.
+The dataset contains 3,900 customer transactions across multiple product categories.
 
-📊 Dataset Information
+📊 Dataset Summary
 
-Total Rows: 3,900
+Total Records: 3,900
 
-Total Columns: 18
+Total Features: 18
 
-🔑 Key Features:
+🔑 Key Attributes:
 
-Customer Demographics: Age, Gender, Location, Subscription Status
+Demographics: Age, Gender, Location, Subscription Status
 
 Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
 
-Behavioral Data: Discount Applied, Promo Code Used, Frequency of Purchases, Review Rating, Shipping Type
+Behavioral Data: Discount Applied, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type
 
-Missing Values: 37 values in Review Rating
+Missing Values: 37 missing entries in Review Rating
 
 🛠️ Tech Stack
 
-Python → Data Cleaning & Preprocessing
+Python (Pandas, NumPy) → Data Cleaning & Feature Engineering
 
-PostgreSQL → Data Analysis (SQL Queries)
+Microsoft SQL Server (MSSQL) → Data Analysis & Querying
 
-Power BI → Dashboard & Visualization
+Power BI → Data Visualization & Dashboard
 
 🔄 Data Preprocessing
 
-Handled missing values using median imputation
+Handled missing values using median imputation (category-wise)
 
-Standardized column names (snake_case)
+Standardized column names into snake_case format
 
 Created new features:
 
@@ -43,37 +42,37 @@ age_group
 
 purchase_frequency_days
 
-Removed redundant columns
+Removed redundant columns (e.g., promo_code_used)
 
-Loaded cleaned data into PostgreSQL
+Loaded cleaned dataset into MSSQL database
 
-📈 Business Analysis (SQL)
+📈 Business Analysis (MSSQL)
 
-Performed analysis to answer key business questions:
+Performed advanced SQL analysis using Microsoft SQL Server to answer key business questions:
 
 💰 Revenue by Gender
 
-🛍️ High-Spending Discount Users
+🛍️ High-Spending Customers Using Discounts
 
-⭐ Top 5 Products by Rating
+⭐ Top 5 Products by Average Rating
 
-🚚 Shipping Type Comparison
+🚚 Shipping Type Comparison (Standard vs Express)
 
-👥 Subscribers vs Non-Subscribers
+👥 Subscribers vs Non-Subscribers Analysis
 
 🎯 Discount-Dependent Products
 
 🔄 Customer Segmentation (New, Returning, Loyal)
 
-🏆 Top Products per Category
+🏆 Top 3 Products per Category
 
-🔁 Repeat Buyers vs Subscriptions
+🔁 Repeat Buyers vs Subscription Behavior
 
-👶 Revenue by Age Group
+👶 Revenue Contribution by Age Group
 
 📊 Dashboard (Power BI)
 
-An interactive dashboard was built to visualize:
+Developed an interactive Power BI dashboard to visualize:
 
 Total Customers
 
@@ -81,56 +80,70 @@ Average Purchase Amount
 
 Revenue by Category
 
-Sales by Age Group
+Sales Distribution by Age Group
 
-Subscription Distribution
+Subscription Status Breakdown
 
 🔍 Key Insights
 
-Male customers generated higher revenue
+Male customers contributed higher overall revenue
 
-Loyal customers form the majority segment
+Loyal customers represent the largest segment
 
-Express shipping users spend slightly more
+Express shipping users have slightly higher average spending
 
-Certain products are highly dependent on discounts
+Some products are highly dependent on discounts for sales
 
-Young adults contribute the highest revenue
+Young adults generate the highest revenue
 
 💡 Business Recommendations
 
 🚀 Promote subscription plans with exclusive benefits
 
-🎁 Introduce loyalty programs for repeat customers
+🎁 Implement loyalty programs for repeat customers
 
-💸 Optimize discount strategies to maintain profit margins
+💸 Optimize discount strategies to balance revenue and profit
 
-📢 Highlight top-rated and best-selling products
+📢 Highlight top-rated and high-performing products
 
-🎯 Target high-revenue age groups in marketing
+🎯 Focus marketing campaigns on high-revenue age groups
 
-🚀 How to Run
+🚀 How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/customer-shopping-analysis.git
+2️⃣ Data Preprocessing (Python)
 
-Clone the repository
-git clone https://github.com/your-username/customer-trends-data-analysis-SQL-Python-PowerBI.git
+Run Python scripts to clean and transform data
 
-Run Python scripts for preprocessing
+3️⃣ Load Data into MSSQL
 
-Import data into PostgreSQL
+Import dataset into Microsoft SQL Server
 
-Execute SQL queries
+Create database and tables
 
-Open Power BI dashboard
+4️⃣ Run SQL Queries
+
+Execute analysis queries in SQL Server Management Studio (SSMS)
+
+5️⃣ Visualize in Power BI
+
+Connect Power BI to MSSQL
+
+Load dataset and build dashboard
 
 🎯 Project Outcome
 
-This project demonstrates how data analytics can be used to:
+This project demonstrates the end-to-end data analytics workflow:
+
+Data Cleaning → SQL Analysis → Data Visualization
+
+It highlights how businesses can leverage data to:
 
 Understand customer behavior
 
-Improve marketing strategies
+Improve decision-making
 
-Increase revenue through insights
+Increase revenue and customer retention
 
 🤝 Connect with Me
 
@@ -139,3 +152,4 @@ If you liked this project or have suggestions, feel free to connect!
 📧 Email: mohdsalik715@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/mohd-salik-rajput-406531247/
+
